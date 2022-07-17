@@ -11507,3 +11507,80 @@ iframe[title="User Sync"] {
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s
 }
+
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+style attribute {
+    position: relative;
+    outline: none;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    overflow: auto hidden;
+}
+.sg-text {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "ProximaNova","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+.sg-flex--column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.sg-layout {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+    font-family: "ProximaNova","Helvetica","Arial",sans-serif;
+    line-height: 1.5rem;
+}
+:root {
+    --ML__static-fonts: true;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    font-size: 16px;
+}
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
