@@ -1,2 +1,2 @@
-# Educatque
-A Website For Learning
+#Educatque - Your Place To Study
+Let's Learn To Infinity
