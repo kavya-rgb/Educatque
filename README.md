@@ -1,2 +1,2 @@
-#Educatque - Your Place To Study
+# Educatque - Your Place To Study
 Let's Learn To Infinity
