@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,153 +8,204 @@
     <title>Python - Complete Course</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
-        @media (max-width:992px){
-            .w3-container{
-                margin-left:0% !important;
+        @media (max-width:992px) {
+            .w3-container {
+                margin-left: 0% !important;
             }
         }
-    </style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
-    crossorigin="anonymous"></script>
+
+        .mockup-code pre[data-prefix]:before {
+            content: attr(data-prefix);
+            text-align: right;
+            width: 2rem;
+            opacity: .5;
+            display: inline-block
+        }
+    </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="w3-sidebar w3-bar-block w3-light-gray w3-collapse" style="width:25%">
-        <button class="w3-button w3-bar-item" onclick="document.getElementById('link-1').classList.add('w3-green');"id="link-1"> <a href="#whypython" style="text-decoration: none;">Why Python
-        ?</a> </button>
-                <button class="w3-button w3-bar-item" onclick="document.getElementById('link-2').classList.add('w3-green');
-                "id="link-2"> <a href="#download" style="text-decoration: none;">Download And Installing Python And Pycharm</a> </button>
-                <button class="w3-button w3-bar-item" onclick="document.getElementById('link-3').classList.add('w3-green');
-                "id="link-3"> <a href="#modulesandpip" style="text-decoration: none;">Using Modules And PIP In Python</a> </button>
-                <button class="w3-button w3-bar-item" onclick="document.getElementById('link-4').classList.add('w3-green');
-                "id="link-4"> <a href="#1-python-program" style="text-decoration: none;">Using Modules And PIP In Python</a> </button>
-      </div>
-<div class="w3-container" style="margin-left:25%">
-<h1 class="w3-green" style="color:aliceblue; text-align: center;">Python Complete Course - Beginner To Expert</h1>
-<div class="sec-1" id="whypython">
-    <h2>What Is Programming and Why Python?</h2>
-    <p>Guido Van Rossum created the Python Programming language in February 1991. Python is an interpreted, high-level, general-purpose programming language.    </p>
-    <p>Python allows us to create a game, build web apps, do general-purpose scripting, etc.</p>
-    <p>Before we dive into the details of Python, let's understand what the term Programming or Coding means?
-<br>
-        Programming helps human beings to reduce hours of manual effort.
-        <br>
-        In today's era, demand for programming is growing rapidly; i.e., there is a huge need for software developers and programmers in IT (Tech) Industries.
-        </p>
-        <p>To write code in any language, we need a friendly platform where we can write the code and can execute it. For this, we use IDEs.
-            <br>
-            IDE – An IDE (Integrated Development Environment) is a software application that provides many comprehensive facilities to programmers for software or application development.
-            <br>
-Python is used by many of the best tech companies. A few of those companies are:
-
-<li>Instagram</li>
-<li>Facebook</li>
-<li>Google</li>
-<li>Reddit</li>
-<li>Spotify</li>
-<li>Quora</li>
-<li>Dropbox</li>
-<li>Netflix</li>
-<br>
-So, this was a quick introduction to the Python programming language. In the next Video, we will see how to download and Install Pycharm. I will be covering all essential concepts of Python in this course for absolutely free, therefore, please share this course with your friends and family also.
-        </p>
-</div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6911593210144183"
-     data-ad-slot="3975849319"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<div class="sec-2" id="download">
-<h2>Downloading Python And Installing Pycharm</h2>
-<div class="cont font-karla text-lg"><p>In this tutorial, we'll download and install Python as well as an IDE called PyCharm. First of all, let's head to Python's official website and download Python:</p>
-    <ul>
-    <li>Go to this link - <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">https://www.python.org/downloads/</a>.</li>
-    <li>From the above link, download the latest version of Python.</li>
-    <li>After visiting this link, click on the "Download Python" button.</li>
-    <li>Your download will start as soon as you click the button.</li>
-    </ul>
-    <p></p><p></p>
-    <p>Nice! You can run the installer and install Python. Now, let's download the Pycharm IDE. But what is Pycharm, and why do we need it?</p>
-    <p><strong>Pycharm </strong>is one of the best Integrated Development Environments (IDEs) for Python Language developed by the Czech company JetBrains. To download Pycharm, follow the steps below:</p>
-    <ol>
-    <li>Go to this link - <a href="https://www.jetbrains.com/pycharm/download/#section=windows" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/download/#section=windows</a>.</li>
-    <li>After visiting the above link, download the community version of Pycharm.</li>
-    <li>Click on the community button to download it.</li>
-    <li>Your download will start.</li>
-    </ol>
-    <p>After that, install it like any other software. After installing both Python and Pycharm, open the terminal (Powershell), and then type 'python' and press Enter.</p>
-    <p>You should see the output like this.</p>
-    <p><img style="display: block; margin-left: auto; margin-right: auto; border-width: 3px; border-style: solid;" src="1.jpg" width="742" height="418"></p>
-    <p>&nbsp;</p>
-    <p>Then Install Pycharm like any other software and do not make any changes while installing it.</p>
-    <p>And that's all! You have your Python + Pycharm installed on your computer. I hope you enjoyed this tutorial. In the upcoming tutorial, we will study about the pip and modules in Python.</p></div>
-</div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6911593210144183"
-     data-ad-slot="3975849319"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<div class="sec3" id="modulesandpip">
-    <h1>Using Modules And PIP In Python</h1>
-    <div class="cont font-karla text-lg"><p>Sometimes we have to use someone else's code in our program because it saves us a lot of time. Today, we will learn a technique to use code that is not written by us but will enhance the quality of our program, save us time and energy, and of course, it is legal and free.</p>
-        <p></p><p></p>
-        <p>Let us understand what utilities like modules and pip are,</p>
-        <p><strong>Module </strong>– Module or library is a file that contains definitions of several functions, classes, variables, etc., which is written by someone else for us to use.</p>
-        <p><strong>Pip </strong>– Pip is a package manager for Python, i.e., pip command can be used to download any external module in Python. It is something that helps us to get code written by someone else.</p>
-        <p>We can install a module in our system by using the pip command :</p>
-        <ul>
-        <li>Open cmd or Powershell in your system.</li>
-        <li>And then, type pip install module_name and press enter.</li>
-        <li>Once you do that, the module will start downloading and will install automatically on your computer.</li>
-        </ul>
-        <p>For example, for installing flask, I will do this:</p>
-        <p><img class="img-fluid img-responsive mx-auto d-block" src="2-1.jpg" width="670" height="377"></p>
-        <p>After pressing the enter key, you will see something like this:</p>
-        <p><img class="img-fluid img-responsive mx-auto d-block" src="2-2.jpg" width="662" height="372"></p>
-        <p></p><p></p>
-        <p>After installing any module in Python, you can import it into your Python program. For example, I will type "import flask" at the top of my Python program to use the flask.</p>
-        <span style="padding-right: 0.1px;"><span class="cm-keyword" style="color: mediumblue;">import</span> <span class="cm-variable">flask</span></span>
-        <p>There are two types of modules in Python:</p>
-        <ul>
-        <li>
-        <h5>Built-in Modules:</h5>
-        </li>
-        </ul>
-        <p style="padding-left: 80px;">Built-in modules are pre-installed in Python, i.e., there is no need to download them. These modules come with the python interpreter itself. For example– random, os, etc.</p>
-        <p style="padding-left: 80px;">To get a complete list of built-in modules of python, head over to the following page of the official documentation - <a href="https://docs.python.org/3/py-modindex.html" target="_blank" rel="noopener">https://docs.python.org/3/py-modindex.html</a>.</p>
-        <ul>
-        <li>
-        <h5>External Modules:</h5>
-        </li>
-        </ul>
-        <p style="padding-left: 80px;">These are the modules that are not pre-installed in Python, i.e., we need to download them before using them in our program. For example:– Flask, Pandas, TensorFlow, etc.</p>
+        <button class="w3-button w3-bar-item" onclick="document.getElementById('link-1').classList.add('w3-green');"
+            id="link-1"> <a href="#whypython" style="text-decoration: none;">Why Python
+                ?</a> </button>
+        <button class="w3-button w3-bar-item" onclick="document.getElementById('link-2').classList.add('w3-green');
+                " id="link-2"> <a href="#download" style="text-decoration: none;">Download And Installing Python And
+                Pycharm</a> </button>
+        <button class="w3-button w3-bar-item" onclick="document.getElementById('link-3').classList.add('w3-green');
+                " id="link-3"> <a href="#modulesandpip" style="text-decoration: none;">Using Modules And PIP In
+                Python</a> </button>
+        <button class="w3-button w3-bar-item" onclick="document.getElementById('link-4').classList.add('w3-green');
+                " id="link-4"> <a href="#1-python-program" style="text-decoration: none;">Writing Our First Python
+                Program</a> </button>
     </div>
-</div>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
-     crossorigin="anonymous"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6911593210144183"
-     data-ad-slot="3975849319"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<div class="sec4" id="1-python-program">
+    <div class="w3-container" style="margin-left:25%">
+        <h1 class="w3-green" style="color:aliceblue; text-align: center;">Python Complete Course - Beginner To Expert
+        </h1>
+        <div class="sec-1" id="whypython">
+            <h2>What Is Programming and Why Python?</h2>
+            <p>Guido Van Rossum created the Python Programming language in February 1991. Python is an interpreted,
+                high-level, general-purpose programming language. </p>
+            <p>Python allows us to create a game, build web apps, do general-purpose scripting, etc.</p>
+            <p>Before we dive into the details of Python, let's understand what the term Programming or Coding means?
+                <br>
+                Programming helps human beings to reduce hours of manual effort.
+                <br>
+                In today's era, demand for programming is growing rapidly; i.e., there is a huge need for software
+                developers and programmers in IT (Tech) Industries.
+            </p>
+            <p>To write code in any language, we need a friendly platform where we can write the code and can execute
+                it. For this, we use IDEs.
+                <br>
+                IDE – An IDE (Integrated Development Environment) is a software application that provides many
+                comprehensive facilities to programmers for software or application development.
+                <br>
+                Python is used by many of the best tech companies. A few of those companies are:
 
-</div>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Google</li>
+                <li>Reddit</li>
+                <li>Spotify</li>
+                <li>Quora</li>
+                <li>Dropbox</li>
+                <li>Netflix</li>
+                <br>
+                So, this was a quick introduction to the Python programming language. In the next Video, we will see how
+                to download and Install Pycharm. I will be covering all essential concepts of Python in this course for
+                absolutely free, therefore, please share this course with your friends and family also.
+            </p>
+        </div>
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
+            crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+            data-ad-format="fluid" data-ad-client="ca-pub-6911593210144183" data-ad-slot="3975849319"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        <div class="sec-2" id="download">
+            <h2>Downloading Python And Installing Pycharm</h2>
+            <div class="cont font-karla text-lg">
+                <p>In this tutorial, we'll download and install Python as well as an IDE called PyCharm. First of all,
+                    let's head to Python's official website and download Python:</p>
+                <ul>
+                    <li>Go to this link - <a href="https://www.python.org/downloads/" target="_blank"
+                            rel="noopener">https://www.python.org/downloads/</a>.</li>
+                    <li>From the above link, download the latest version of Python.</li>
+                    <li>After visiting this link, click on the "Download Python" button.</li>
+                    <li>Your download will start as soon as you click the button.</li>
+                </ul>
+                <p></p>
+                <p></p>
+                <p>Nice! You can run the installer and install Python. Now, let's download the Pycharm IDE. But what is
+                    Pycharm, and why do we need it?</p>
+                <p><strong>Pycharm </strong>is one of the best Integrated Development Environments (IDEs) for Python
+                    Language developed by the Czech company JetBrains. To download Pycharm, follow the steps below:</p>
+                <ol>
+                    <li>Go to this link - <a href="https://www.jetbrains.com/pycharm/download/#section=windows"
+                            target="_blank"
+                            rel="noopener">https://www.jetbrains.com/pycharm/download/#section=windows</a>.</li>
+                    <li>After visiting the above link, download the community version of Pycharm.</li>
+                    <li>Click on the community button to download it.</li>
+                    <li>Your download will start.</li>
+                </ol>
+                <p>After that, install it like any other software. After installing both Python and Pycharm, open the
+                    terminal (Powershell), and then type 'python' and press Enter.</p>
+                <p>You should see the output like this.</p>
+                <p><img style="display: block; margin-left: auto; margin-right: auto; border-width: 3px; border-style: solid;"
+                        src="1.jpg" width="742" height="418"></p>
+                <p>&nbsp;</p>
+                <p>Then Install Pycharm like any other software and do not make any changes while installing it.</p>
+                <p>And that's all! You have your Python + Pycharm installed on your computer. I hope you enjoyed this
+                    tutorial. In the upcoming tutorial, we will study about the pip and modules in Python.</p>
+            </div>
+        </div>
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
+            crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+            data-ad-format="fluid" data-ad-client="ca-pub-6911593210144183" data-ad-slot="3975849319"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        <div class="sec3" id="modulesandpip">
+            <h1>Using Modules And PIP In Python</h1>
+            <div class="cont font-karla text-lg">
+                <p>Sometimes we have to use someone else's code in our program because it saves us a lot of time. Today,
+                    we will learn a technique to use code that is not written by us but will enhance the quality of our
+                    program, save us time and energy, and of course, it is legal and free.</p>
+                <p></p>
+                <p></p>
+                <p>Let us understand what utilities like modules and pip are,</p>
+                <p><strong>Module </strong>– Module or library is a file that contains definitions of several functions,
+                    classes, variables, etc., which is written by someone else for us to use.</p>
+                <p><strong>Pip </strong>– Pip is a package manager for Python, i.e., pip command can be used to download
+                    any external module in Python. It is something that helps us to get code written by someone else.
+                </p>
+                <p>We can install a module in our system by using the pip command :</p>
+                <ul>
+                    <li>Open cmd or Powershell in your system.</li>
+                    <li>And then, type pip install module_name and press enter.</li>
+                    <li>Once you do that, the module will start downloading and will install automatically on your
+                        computer.</li>
+                </ul>
+                <p>For example, for installing flask, I will do this:</p>
+                <p><img class="img-fluid img-responsive mx-auto d-block" src="2-1.jpg" width="670" height="377"></p>
+                <p>After pressing the enter key, you will see something like this:</p>
+                <p><img class="img-fluid img-responsive mx-auto d-block" src="2-2.jpg" width="662" height="372"></p>
+                <p></p>
+                <p></p>
+                <p>After installing any module in Python, you can import it into your Python program. For example, I
+                    will type "import flask" at the top of my Python program to use the flask.</p>
+                <span style="padding-right: 0.1px;"><span class="cm-keyword" style="color: mediumblue;">import</span>
+                    <span class="cm-variable">flask</span></span>
+                <p>There are two types of modules in Python:</p>
+                <ul>
+                    <li>
+                        <h5>Built-in Modules:</h5>
+                    </li>
+                </ul>
+                <p style="padding-left: 80px;">Built-in modules are pre-installed in Python, i.e., there is no need to
+                    download them. These modules come with the python interpreter itself. For example– random, os, etc.
+                </p>
+                <p style="padding-left: 80px;">To get a complete list of built-in modules of python, head over to the
+                    following page of the official documentation - <a href="https://docs.python.org/3/py-modindex.html"
+                        target="_blank" rel="noopener">https://docs.python.org/3/py-modindex.html</a>.</p>
+                <ul>
+                    <li>
+                        <h5>External Modules:</h5>
+                    </li>
+                </ul>
+                <p style="padding-left: 80px;">These are the modules that are not pre-installed in Python, i.e., we need
+                    to download them before using them in our program. For example:– Flask, Pandas, TensorFlow, etc.</p>
+            </div>
+        </div>
+        <script async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
+            crossorigin="anonymous"></script>
+        <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article"
+            data-ad-format="fluid" data-ad-client="ca-pub-6911593210144183" data-ad-slot="3975849319"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        <div class="sec4" id="1-python-program">
+            <h1>Writing Our First Python Program</h1>
+            <p>Open Pycharm and create a new file in it.
+                <br>
+                Keep in mind the file name should not match any module name. <br>
+                After creating a new file, type:
+                <br>
+            <div class="mockup-code">
+                <pre data-prefix="1"><code>print('Hello World')</code></pre>
+            </div>
+            </p>
+            
+        </div>
 
-</div>
+    </div>
 </body>
+
 </html>
