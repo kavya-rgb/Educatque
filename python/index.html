@@ -10,6 +10,45 @@
     <link rel="stylesheet" href="style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6911593210144183"
         crossorigin="anonymous"></script>
+    <style>
+            .tooltip {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .tooltip .tooltiptext {
+              visibility: hidden;
+              width: 140px;
+              background-color: #555;
+              color: #fff;
+              text-align: center;
+              border-radius: 6px;
+              padding: 5px;
+              position: absolute;
+              z-index: 1;
+              bottom: 150%;
+              left: 50%;
+              margin-left: -75px;
+              opacity: 0;
+              transition: opacity 0.3s;
+            }
+            
+            .tooltip .tooltiptext::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              margin-left: -5px;
+              border-width: 5px;
+              border-style: solid;
+              border-color: #555 transparent transparent transparent;
+            }
+            
+            .tooltip:hover .tooltiptext {
+              visibility: visible;
+              opacity: 1;
+            }
+    </style>
 </head>
 
 <body>
@@ -316,6 +355,31 @@ Yeah, that’s true! Python is not just limited to do calculations. It has a vas
         <p>Let us now look into some functions you will use to manipulate or perform operations on strings.</p>
         <p><strong>len() Function </strong> : This len() function returns the total no. of characters in a string. E.g., for string a="abc", len(a) will return three as the output as it is a string variable containing 3 characters</p>
         <p>E.g., Consider this string variable x</p>
+        <div class="mockup-code">
+                <input id="string-demo" type="text"  value="x = String Demo">
+        </div>
+        <div class="tooltip">
+            <button onclick="stringDemo()" onmouseout="outFunc()" class="w3-bar-item w3-button">
+              <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+              Copy text
+              </button>
+            </div>
+            <script>
+                function stringDemo() {
+                  var copyText = document.getElementById("string-demo");
+                  copyText.select();
+                  copyText.setSelectionRange(0, 99999);
+                  navigator.clipboard.writeText(copyText.value);
+                  
+                  var tooltip = document.getElementById("myTooltip");
+                  tooltip.innerHTML = "Copied: " + copyText.value;
+                }
+                
+                function outFunc() {
+                  var tooltip = document.getElementById("myTooltip");
+                  tooltip.innerHTML = "Copy to clipboard";
+                }
+                </script>          
     </div>
 </body>
 
